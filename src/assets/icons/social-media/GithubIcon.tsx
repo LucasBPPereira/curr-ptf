@@ -6,7 +6,7 @@ export const GithubIcon = ({ className, ...rest}: SVGProps<SVGSVGElement>) => {
     <svg
       stroke="currentColor"
       fill="currentColor"
-      stroke-width="0"
+      strokeWidth="0"
       viewBox="0 0 496 512"
       className={cn("text-2xl", className)}
       height="1em"
