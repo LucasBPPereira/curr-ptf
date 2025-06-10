@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <footer className={"p-10 max-h-60 h-full w-full"}>
+    <footer className={"relative bottom-0 w-full left-1/2 -translate-x-1/2 "}>
       <div className="mx-auto w-full flex gap-5 justify-around max-w-[600px] text-black">
         <section className="max-w-60">
           <Link href={"/"} className="group">

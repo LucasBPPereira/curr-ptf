@@ -1,0 +1,1 @@
+export const noHtmlRegex = /<\/?[\w\s="/.':;#-\/\?]+>/gi;
