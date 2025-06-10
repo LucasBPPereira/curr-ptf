@@ -6,7 +6,6 @@ import { PrismaORMIcon } from "@/assets/icons/programming/PrismaORMIcon";
 import { ShadcnIcon } from "@/assets/icons/programming/ShadcnIcon";
 import { TailwindIcon } from "@/assets/icons/programming/TailwindIcon";
 import { TSIcon } from "@/assets/icons/programming/TSIcon";
-import { CardProjeto } from "@/components/CardProjeto";
 import { DirectionAwareHover } from "@/components/motion/DirectionAwareHover";
 import { cn } from "@/shared/utils/cn";
 import { poppins } from "../fonts";
@@ -22,14 +21,10 @@ export default function PageProjetos() {
   return (
     <section className="max-w-4xl mx-auto px-2">
       <h1>Projetos</h1>
-      {/* <CardProjeto /> */}
       <div className="max-w-96">
         <DirectionAwareHover imageUrl={imageUrl}>
           <p className="font-bold text-xl">IT System</p>
           <div className="flex items-center gap-2">
-            {/* <img src="https://www.prisma.io/docs/ai_button.svg" alt="Logo do Prisma ORM" width={30} height={30} />
-             */}
-            {/* <img src="https://www.prisma.io/docs/img/technologies/nextjs.svg" alt="Logo do Prisma ORM" width={30} height={30} /> */}
             <PrismaORMIcon />
             <TSIcon width={18} height={18} />
             <NodeIcon width={45} height={45} />
